@@ -1,5 +1,5 @@
-# porfolio
-# Mon Projet de Site Web Statique
+
+# titre 
 
 # 1. Introduction
 Les Media Queries sont une fonctionnalité CSS3 qui permettent d'appliquer des styles différents en fonction des caractéristiques du média sur lequel la page web est affichée, telles que la taille de l'écran, l'orientation ou le type de périphérique.
@@ -41,5 +41,6 @@ Media Queries pour les types de périphériques :
  ```
 # 4. Travail d'aujourd'hui : 
 ![image](https://github.com/MariemTlatli/porfolio/assets/127855946/315637bd-05db-499c-a908-ee26f4d419b8)
+![image](https://github.com/MariemTlatli/porfolio/assets/127855946/8f63830c-504c-4869-8259-c29fc92b4337)
 
 
