@@ -57,6 +57,7 @@ index.html :
     </div>
  ```
 styles.css : 
+ ```
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -88,3 +89,4 @@ styles.css :
     width: calc(25% - 50px);
   }
 }
+ ```
