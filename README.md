@@ -1,16 +1,16 @@
 # média querry et annimation :  
-## Média querry : 
-# 1. Introduction
+# Média querry : 
+## 1. Introduction
 Les Media Queries sont une fonctionnalité CSS3 qui permettent d'appliquer des styles différents en fonction des caractéristiques du média sur lequel la page web est affichée, telles que la taille de l'écran, l'orientation ou le type de périphérique.
 
-# 2. Syntaxe de base
+## 2. Syntaxe de base
    ```
   /* Syntaxe générale */
 @media type and (expression) {
   /* Styles à appliquer */
 }
    ```
-# 3. Exemples simples
+## 3. Exemples simples
    Media Queries pour les tailles d'écran :
  ```
 /* Appliquer des styles si la largeur de l'écran est inférieure à 600px */
@@ -38,7 +38,7 @@ Media Queries pour les types de périphériques :
   }
 }
  ```
-# 4. Travail d'aujourd'hui : 
+## 4. Travail d'aujourd'hui : 
 ![Jumia](https://github.com/MariemTlatli/porfolio/assets/127855946/25a9c65a-35d9-4739-9f2f-d7e5e84961d7)(https://www.jumia.com.tn/mlp-telephone-tablette/smartphones/)
 ![cothings](https://github.com/MariemTlatli/porfolio/assets/127855946/87ce637d-9750-47d4-93ee-0b864dc5abdf)(https://cothings.net/collections/robotique)
 ![Portfolio](https://github.com/MariemTlatli/porfolio/assets/127855946/e70e9515-3cb7-4062-800f-33694b1345fb)
@@ -89,4 +89,34 @@ styles.css :
     width: calc(25% - 50px);
   }
 }
+ ```
+# Transitions : 
+ ```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Transformation au survol en CSS</title>
+<style>
+    .boite {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        transition-property: transform; /* Spécifie la propriété CSS à laquelle appliquer la transition */
+        transition-duration: 1s; /* Durée de l'animation */
+        transition-timing-function: ease; /* Fonction de temporisation (facultatif, ici 'ease' pour une transition fluide) */
+    }
+
+    .boite:hover {
+        transform: rotate(45deg) scale(1.5) translate(50px, 50px); /* Transformation lorsque survolé */
+    }
+</style>
+</head>
+<body>
+
+<div class="boite"></div>
+
+</body>
+</html>
  ```
