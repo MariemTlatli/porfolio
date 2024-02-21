@@ -58,37 +58,42 @@ index.html :
  ```
 styles.css : 
  ```
+/* Styles pour le conteneur flexible */
 .flex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+    display: flex; /* Conteneur flexible */
+    flex-wrap: wrap; /* Permet aux éléments enfants de passer à la ligne */
+    justify-content: space-between; /* Répartit les éléments enfants avec un espacement égal */
 }
+
+/* Styles pour les éléments enfants */
 .flex .child {
-  background-color: #f0f0f0;
-  padding: 20px;
-  margin-bottom: 10px;
-  width: 100%;
+    background-color: #f0f0f0; /* Couleur d'arrière-plan gris clair */
+    padding: 20px; /* Ajoute de l'espace à l'intérieur de chaque élément enfant */
+    margin-bottom: 10px; /* Ajoute un espacement en bas de chaque élément enfant */
+    width: 100%; /* Par défaut, chaque élément occupe toute la largeur disponible */
 }
-/* styles for screens between 769 and 992 pixels */
+
+/* Styles pour les écrans entre 769 et 992 pixels */
 @media (min-width: 769px) and (max-width: 992px) {
-  .flex .child {
-    width: calc(50% - 50px);
-  }
+    .flex .child {
+        width: calc(50% - 50px); /* Chaque élément occupe la moitié de la largeur moins 50 pixels */
+    }
 }
 
-/* styles for screens between 993 and 1200 pixels */
+/* Styles pour les écrans entre 993 et 1200 pixels */
 @media (min-width: 993px) and (max-width: 1200px) {
-  .flex .child {
-    width: calc(33.33% - 50px);
-  }
+    .flex .child {
+        width: calc(33.33% - 50px); /* Chaque élément occupe environ un tiers de la largeur moins 50 pixels */
+    }
 }
 
-/* styles for screens larger than 1200 pixels */
+/* Styles pour les écrans plus larges que 1200 pixels */
 @media (min-width: 1201px) and (max-width: 1400px) {
-  .flex .child {
-    width: calc(25% - 50px);
-  }
+    .flex .child {
+        width: calc(25% - 50px); /* Chaque élément occupe environ un quart de la largeur moins 50 pixels */
+    }
 }
+
  ```
 # Transitions : 
  ```
