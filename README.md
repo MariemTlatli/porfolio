@@ -95,7 +95,21 @@ styles.css :
 }
 
  ```
-# Transitions : 
+## Les Transitions :
+Les transitions CSS permettent de créer des effets d'animation fluides lorsqu'un élément change d'état, comme lors du survol d'un lien, d'un changement de couleur, ou d'un déplacement d'un élément. Elles permettent de contrôler comment les propriétés CSS changent au fil du temps.
+# 2. syntaxe de base : 
+transition-property : Cette propriété spécifie la ou les propriétés CSS auxquelles appliquer la transition
+transition-duration : Cette propriété définit la durée de l'animation
+transition-delay : Optionnel, définit un délai avant le début de la transition.
+transition-timing-function : Cette propriété spécifie la fonction de temporisation utilisée pour contrôler la vitesse de la transition.
+Les valeurs possibles incluent :
+    ease: Démarre lentement, accélère au milieu, puis ralentit à la fin (effet fluide par défaut).
+    linear: La transition se produit à une vitesse constante.
+    ease-in: Démarre lentement puis accélère.
+    ease-out: Démarre rapidement puis ralentit.
+    ease-in-out: Démarre lentement, accélère au milieu, puis ralentit à la fin.
+
+# 3. exemple :     
  ```
 <!DOCTYPE html>
 <html lang="en">
@@ -112,18 +126,25 @@ styles.css :
         transition-duration: 1s; /* Durée de l'animation */
         transition-timing-function: ease; /* Fonction de temporisation (facultatif, ici 'ease' pour une transition fluide) */
     }
-
     .boite:hover {
         transform: rotate(45deg) scale(1.5) translate(50px, 50px); /* Transformation lorsque survolé */
     }
 </style>
 </head>
 <body>
-
 <div class="boite"></div>
-
 </body>
 </html>
- ```
-# hamburger menu 
+
+```
+La propriété transform est utilisée pour appliquer différentes transformations à un élément HTML.
+Voici quelques exemples de transformations couramment utilisées :
+
+    Rotation (rotate(angle)): Fait pivoter l'élément autour de son point d'origine selon un angle spécifié.
+
+    Redimensionnement (scale(x, y)): Modifie la taille de l'élément selon les facteurs de mise à l'échelle x et y. Si seulement un paramètre est fourni, l'élément est redimensionné de manière égale horizontalement et verticalement.
+
+    Translation (translate(x, y)): Déplace l'élément horizontalement de x pixels et verticalement de y pixels.
+
+# Workshop : 
 
