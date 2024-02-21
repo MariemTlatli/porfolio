@@ -99,14 +99,23 @@ styles.css :
 Les transitions CSS permettent de créer des effets d'animation fluides lorsqu'un élément change d'état, comme lors du survol d'un lien, d'un changement de couleur, ou d'un déplacement d'un élément. Elles permettent de contrôler comment les propriétés CSS changent au fil du temps.
 # 2. syntaxe de base : 
 transition-property : Cette propriété spécifie la ou les propriétés CSS auxquelles appliquer la transition
+
 transition-duration : Cette propriété définit la durée de l'animation
+
 transition-delay : Optionnel, définit un délai avant le début de la transition.
+
 transition-timing-function : Cette propriété spécifie la fonction de temporisation utilisée pour contrôler la vitesse de la transition.
+
 Les valeurs possibles incluent :
+
     ease: Démarre lentement, accélère au milieu, puis ralentit à la fin (effet fluide par défaut).
+    
     linear: La transition se produit à une vitesse constante.
+    
     ease-in: Démarre lentement puis accélère.
+    
     ease-out: Démarre rapidement puis ralentit.
+    
     ease-in-out: Démarre lentement, accélère au milieu, puis ralentit à la fin.
 
 # 3. exemple :     
