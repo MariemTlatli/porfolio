@@ -38,6 +38,24 @@ Media Queries pour les types de périphériques :
   }
 }
  ```
+# remarque : 
+Les tailles les plus importantes dans les media queries dépendent largement de la conception du site web ou de l'application web en question, ainsi que des appareils cibles. Cependant, voici quelques tailles couramment utilisées dans les media queries pour les points de rupture (breakpoints) :
+
+    Mobile Portrait (Smartphones verticaux):
+        Généralement moins de 600px de largeur.
+
+    Mobile Landscape (Smartphones en mode paysage):
+        Généralement entre 600px et 900px de largeur.
+
+    Tablettes:
+        De 768px à 1024px de largeur.
+
+    Ordinateurs portables / Desktops:
+        Plus de 1024px de largeur.
+
+    Grand écrans / Écrans larges:
+        Plus de 1200px de largeur.
+        
 ## 4. Travail d'aujourd'hui : 
 ![Jumia](https://github.com/MariemTlatli/porfolio/assets/127855946/25a9c65a-35d9-4739-9f2f-d7e5e84961d7)(https://www.jumia.com.tn/mlp-telephone-tablette/smartphones/)
 ![cothings](https://github.com/MariemTlatli/porfolio/assets/127855946/87ce637d-9750-47d4-93ee-0b864dc5abdf)(https://cothings.net/collections/robotique)
